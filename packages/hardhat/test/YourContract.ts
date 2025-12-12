@@ -18,7 +18,6 @@ describe("YourContract", function () {
   });
 
   describe("Voting process", function () {
-
     it("create a new voting", async () => {
       await voting.createVoting("Test Voting");
 
